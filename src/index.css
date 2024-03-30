@@ -1,0 +1,124 @@
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  overflow: hidden;
+}
+
+.MainContainor{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  height: 800px;
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: cyan;
+  border-radius: 150px;
+  font-family: arial, sans-serif;
+}
+
+#root{
+  height: 100%;
+}
+
+.text{
+  position: absolute;
+  left: 50%;
+  top: 75%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.text h1,h2{
+  text-align: center;
+}
+
+.Img{
+  height: 445px;
+  width: 300px;
+  position: absolute;
+  left: 50%;
+  top: 32%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+h1{
+  position: relative;
+  font-size: 200%;
+  height: 75px;
+  width: 500px;
+  text-align: center;
+  column-gap: 0px;
+  padding: 0px;
+  border: none;
+  margin: 0;
+}
+
+.text h2{
+  position: relative;
+  font-size: 150%;
+  height: 40px;
+  padding: 0px;
+  border: none;
+  margin: 0;
+}
+
+
+.Input{
+  position: absolute;
+  left: 50%;
+  top: 90%;
+  width: 500px;
+  height: 100px;
+  transform: translate(-50%,-50%);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  column-gap: 0px;
+  justify-content: center;
+}
+
+.Input input{
+  position: relative;
+  border: none;
+  border-radius: 25px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  height: 70px;
+  width: 300px;
+  padding: 0px;
+  font-size: 200%;
+  text-indent: 10px;
+}
+
+.Input input:focus{
+  outline: none;
+}
+
+.Input button{
+  position: relative;
+  background-color: blue;
+  color: white;
+  border:none;  
+  height: 70px;
+  width: 100px;
+  border-radius: 25px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  font-size: 100%;
+  padding: 0px;
+}
+
+.Input button:hover{
+  cursor: pointer;
+}
+
