@@ -9,5 +9,11 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script type="text/javascript">
+      if (window.screen.width > 1920 && window.screen.height > 1080) {
+         document.body.style.zoom = "150%";
+ }else if (window.screen.width <= 1480 && window.screen.height <= 1080) 
+         document.body.style.zoom = "70%";
+ </script>
   </body>
 </html>
