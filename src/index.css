@@ -96,8 +96,9 @@ h1{
   height: 70px;
   width: 300px;
   padding: 0px;
-  font-size: 200%;
+  font-size: 2rem;
   text-indent: 10px;
+  touch-action: none;
 }
 
 .Input input:focus{
