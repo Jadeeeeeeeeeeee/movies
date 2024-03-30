@@ -12,8 +12,8 @@ body{
   left: 50%;
   top: 50%;
   transform: translate(-50%,-50%);
-  height: 608px;
-  width: 450px;
+  height: 675px;
+  width: 500px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
